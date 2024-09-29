@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.clg-logo {
+    height: 130px;
+
+}
+
+.main-container {
+    background-color: #232323;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.student-detail-text {
+    font-family: Sans-Serif;
+    font-size: 30px;
+    color: white;
+}
+
+.names-container {
+    background-color: #586874;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.create-std-details {
+    display: flex;
+    justify-content: space-around;
+    width: 87%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 18px;
+    padding-right: 10px;
+    padding-left: 17px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin: 5px;
+    font-weight: 500;
+    font-family: Segoe UI;
+}
+
+#gender {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+input[type="textarea"],
+input[type="file"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 40%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-std-details-submit-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-std-details-submit-button:hover {
+    background-color: #3e8e41;
+}
+
+.create-std-details-submit-button:active {
+    background-color: #2e6d32;
+    transform: translateY(2px);
+}

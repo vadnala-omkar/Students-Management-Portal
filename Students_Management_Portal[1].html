@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Students Management Portal</title>
+</head>
+
+<body>
+    <h1>omkar</h1>
+    <div>
+        <h1>omkar</h1>
+    </div>
+    <div class="main-container">
+        <div class="names-container d-flex flex-row justify-content-space-around shadow m-3">
+            <h1 class="student-detail-text">Search Student Details</h1>
+            <h1 class="student-detail-text">Create Student Details</h1>
+            <h1 class="student-detail-text">Update Student Details</h1>
+            <h1 class="student-detail-text">Delete Student Details</h1>
+        </div>
+    </div>
+    <div>
+        <h1 class="text-center">Upload Student Details</h1>
+        <div class="create-std-details">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" value="" /><br><br>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+            </div>
+            <div>
+                <label for="parent_name">Parent Name</label>
+                <input type="text" name="parent_name" id="parent_name" value="" /><br><br>
+            </div>
+            <div>
+                <label for="parent_phone">Parent Phone:</label>
+                <input type="tel" id="parent_phone" name="parent_phone"><br><br>
+            </div>
+
+            <div>
+                <label for="date_of_birth">Date of Birth:</label>
+                <input type="date" id="date_of_birth" name="date_of_birth"><br><br>
+            </div>
+            <div>
+                <label for="aadhaar_number">Aadhaar Number:</label>
+                <input type="text" id="aadhaar_number" name="aadhaar_number"><br><br>
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <select type="text" id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+            </div>
+
+            <div>
+                <label for="address">Address:</label>
+                <textarea type="textarea" id="address" name="address"></textarea><br><br>
+            </div>
+            <div>
+                <label for="rollNum">Roll Number:</label>
+                <input type="text" id="rollNum" name="rollNum"><br><br>
+            </div>
+            <div>
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department"><br><br>
+            </div>
+            <div>
+                <label for="year_sem">Year & Sem:</label>
+                <input type="text" id="year_sem" name="year_sem"><br><br>
+            </div>
+
+            <div>
+                <label for="create_username">Create Username:</label>
+                <input type="text" id="create_username" name="create_username"><br><br>
+            </div>
+            <div>
+                <label for="create_password">Create Password:</label>
+                <input type="password" id="create_password" name="create_password"><br><br>
+            </div>
+            <div>
+                <label for="std_img">Uplode Image:</label>
+                <input type="file" id="photo" name="photo" accept="image/jpeg, image/png" multiple capture="camera"><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+        <button class="create-std-details-submit-button">Submit</button>
+    </div>
+</body>
+
+</html>
